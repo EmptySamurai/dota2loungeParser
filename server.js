@@ -10,7 +10,7 @@
         list = JSON.parse(fs.readFileSync(file, {
             encoding: "utf8"
         }));
-        console.log("File has been read");
+        console.log("File has been read.");
     } catch (e) {
         console.log("Can't read file or file doesn't exist. New file will be created.");
     }
@@ -72,5 +72,6 @@
             }
         });
     }
+    
     update();
     setInterval(update, 1000 * 60 * 30);
