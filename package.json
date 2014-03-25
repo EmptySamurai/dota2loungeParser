@@ -1,0 +1,8 @@
+{
+    "name": "dota2loungeParser",
+    "version": "0.0.1",
+    "author": "EmptySamurai",
+    "dependencies" :{
+        "jsdom" : "0.10.x"
+    }
+}
